@@ -1,0 +1,21 @@
+.footer {
+    background-color: #2C3B4B;
+    color: #fff;
+    text-align:center;
+    bottom :0;
+    width: 100%;
+    padding: 20px 0;  
+    float: left;
+    margin-top: 20px;
+}
+.footer .title {
+    font-family: aclonica;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: #fff;
+}
+.footer .copyright {
+    margin: 10px 0;
+    color: #B1BBBE;
+    text-transform: capitalize;
+}

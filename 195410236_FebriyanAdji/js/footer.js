@@ -1,0 +1,2 @@
+document.getElementById("footer_title").innerHTML = data['meta']['title']
+document.getElementById("copyright").innerHTML = data["meta"]["title"] + ' - ' + data["meta"]["subtitle"] + ' &copy 2020 / All Rights Reserved'
