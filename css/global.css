@@ -1,0 +1,66 @@
+@font-face {
+    font-family: abeezee;
+    src: url(../fonts/ABeeZee-Regular.ttf);
+}
+@font-face {
+    font-family: aclonica;
+    src: url(../fonts/Aclonica.ttf);
+}
+* {
+    font-family: abeezee;
+    font-size: 13px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #2C3B4B;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-image: url(../images/background.jpg);
+}
+.wrapper {
+    background-color: #fff;
+    width: 75%;
+    margin: 0 12.5%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.wrapper .inner-wrapper {
+    float: left;
+    width: 90%;
+    margin: 0 5%;
+}
+.break {
+    text-transform: uppercase;
+    background-color:#2C3B4B;
+    color: #fff;
+    padding: 10px;
+    font-weight: bolder;
+    text-align: center; 
+    position: relative;
+    border-radius: 20px;
+    z-index: 100;
+    margin: 20px 0;
+    display:inline-block;
+}
+.break:before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 100%; 
+    width: 105%;
+    height: 1px;
+    background: #ddd;
+}
+.break:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 100%; 
+    width: 105%;
+    height: 1px;
+    background: #ddd;
+}
