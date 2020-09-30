@@ -1,0 +1,21 @@
+.about table tr td:nth-child(even) {
+  background: #2c3b4b;
+  color: #fff;
+  font-weight: bolder;
+}
+.about table tr td {
+  padding: 10px;
+}
+.about {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.about .title {
+  font-size: 3em;
+  line-height: 200%;
+  border-bottom: 4px solid #2c3b4b;
+  margin: 10px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
