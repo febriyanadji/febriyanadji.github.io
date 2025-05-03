@@ -3,7 +3,7 @@ name: Deploy Hugo to GitHub Pages
 on:
   push:
     branches:
-      - main # atau ganti dengan branch utama kamu
+      - main
 
 jobs:
   deploy:
@@ -13,13 +13,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: true # jika pakai theme Hugo dari git submodule
+          submodules: true
           fetch-depth: 0
 
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
+          extended: true # wajib untuk SCSS/SASS
 
       - name: Build Hugo site
         run: hugo --minify
