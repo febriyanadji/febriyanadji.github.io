@@ -1,4 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://febriyanadji.github.io/'
 languageCode = 'en-us'
-title = 'Febriyan Site'
-theme = 'ananke'
+title = 'Febriyan Adji'
+theme = 'yinyang'
+
+[params]
+headTitle = "Febriyan Blog"
