@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/runner/work/febriyanadji.github.io/febriyanadji.github.io",
+	"sourceRoot": "/home/febriyan/blog/blog",
 	"sources": [
 		"ananke/css/main.css"
 	],
