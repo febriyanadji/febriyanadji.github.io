@@ -1,0 +1,25 @@
+# Hugo build output
+/public/
+/resources/
+
+# Hugo environment files
+.env
+.env.*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# Node modules (jika pakai npm untuk assets)
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# Netlify dan lainnya (opsional)
+.netlify
